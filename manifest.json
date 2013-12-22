@@ -2,7 +2,7 @@
   "name": "Quora Ratio Calculator",
   "version": "1.0",
   "content_scripts": [{
-      "matches": ["*://*.quora.com/*/answer/*"],
+      "matches": ["*://*.quora.com/*/answer*/*"],
       "js": ["jquery.min.js", "ratio.js"],
       "run_at": "document_idle"
   }],
